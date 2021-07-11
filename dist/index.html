@@ -25,7 +25,7 @@
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                         <li class="nav-item"><a class="nav-link " aria-current="page" href="gallery.html">Gallery</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Stories</a></li>
+                        <li class="nav-item"><a class="nav-link" href="story.html">Stories</a></li>
                     </ul>
                    
                 </div>
@@ -39,9 +39,19 @@
                         <h1 class="display-5 fw-bolder">The Art Of Street</h1>
                         <p class="lead">Capturing the Streets of Manila</p>
                         <div class="d-flex">
-                            <button class="btn btn-outline-dark flex-shrink-0" type="button">
+                            <button class="btn btn-outline-dark flex-shrink-0"  onclick=" gallery()">
                                 View Gallery
                             </button>
+                            <script>
+                            function gallery()
+                            {
+                                location.href = "gallery.html";
+                            } 
+                            </script>
+                            <!-- <a href="gallery.html" class="btn btn-outline-dark flex-shrink-0" role="button">View Gallery</a> -->
+                            <!-- <button class="btn btn-outline-dark flex-shrink-0" type="button">
+                              
+                            </button> -->
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -82,7 +92,15 @@
                 </div>
             </div>
         </section>
-  
+
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="row gx-4 gx-lg-5 align-items-center">
+                    <div class="col-md-6 py-5 ">    
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
             <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
