@@ -1,0 +1,26 @@
+.img-logo {
+max-width:60%;
+height: auto;
+}
+
+.img-slider {
+    max-width:50%;
+    height: auto;
+    }
+
+.footer {
+        position: static;
+        bottom: 0;
+       
+        width: 100%;
+        /* Set the fixed height of the footer here */
+        background-color: #42677e;
+        text-align: center;
+    
+        z-index: 100;
+    }
+    
+.footer-text {
+        color: white;
+    }
+    
